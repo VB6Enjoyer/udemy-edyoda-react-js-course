@@ -1,0 +1,64 @@
+.navbar-button{
+  font-size:32px;
+  padding-right:15px;
+  padding-left:15px;
+  color: blue;
+}
+
+.navbar-button:hover{
+  color: gold;
+}
+
+nav {
+  background-color: cyan;
+  padding: 10px;
+  display: flex;
+}
+
+li {
+  color: white;
+}
+
+body {
+  background-color: teal;
+  margin-right: 50px;
+  margin-left: 50px;
+}
+
+a {
+  color: coral;
+}
+
+a:hover {
+  color: gold;
+}
+
+#intellectual-text{
+  font-size: 12px;
+  color: #0000ff;
+  display: inline;
+}
+
+h3 {
+  color: gold;
+}
+
+img {
+  display: inline;
+}
+
+.food-img {
+  display: block;
+  text-align: center;
+  margin-bottom: 30px;
+  color: gold;
+}
+
+#asado, #helado {
+  width: 39%;
+  height: 39%;
+}
+
+#main {
+  margin-left: 1%;
+}

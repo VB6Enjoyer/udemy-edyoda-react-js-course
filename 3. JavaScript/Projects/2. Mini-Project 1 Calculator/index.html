@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+	<title>Smartwatch Showcase</title>
+</head>
+
+<body onload="clearCalculator()">
+	<div id="calculator-container">
+		<div id="calculator">
+			<div id="input-area">
+				<input type="text" id="calculator-text">
+			</div>
+
+			<div id="button-area">
+				<div class="button-row">
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">7</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">8</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">9</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">+</button>
+				</div>
+
+				<div class="button-row">
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">4</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">5</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">6</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">-</button>
+				</div>
+
+				<div class="button-row">
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">1</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">2</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">3</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">*</button>
+				</div>
+
+				<div class="button-row">
+					<button class="calculator-button" onclick="clearCalculator()">C</button>
+					<button class="calculator-button" onclick="writeOnCalculator(this.innerHTML)">0</button>
+					<button class="calculator-button" onclick="doTheMath()">=</button>
+					<button class=" calculator-button" onclick="writeOnCalculator(this.innerHTML)">/</button>
+				</div>
+			</div>
+		</div>
+	</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

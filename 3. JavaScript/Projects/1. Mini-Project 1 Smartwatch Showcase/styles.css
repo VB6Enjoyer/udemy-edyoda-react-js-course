@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    font-family: 'Montserrat', 'Source Sans Pro';
+    background-color: #fefefe;
+}
+
+header {
+    background-color: #fee708;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+#mercado-libre {
+    width: 200px;
+    height: 80px;
+    align-items: center;
+}
+
+#main-container {
+    display: flex;
+    justify-content: center;
+}
+
+#smartwatch-container {
+    position: relative;
+}
+
+#smartwatch-image {
+    width: 576px;
+    height: 576px;
+}
+
+#time {
+    font-size: 40px;
+    color: white;
+    font-family: 'Montserrat', monospace;
+    top: 215px;
+    left: 208px;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+#heart-rate-container {
+    top: 210px;
+    left: 245px;
+    position: absolute;
+    text-align: center;
+}
+
+#heart-rate-container h3 {
+    font-size: 35px;
+    color: white;
+    font-family: 'Montserrat', 'Source Sans Pro';
+    position: relative;
+    top: -25px;
+}
+
+#heart-rate-container img {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    animation: heartbeat 0.75s infinite ease-in-out;
+}
+
+#product-name {
+    font-family: "Source Sans Pro";
+    font-weight: 800;
+    font-size: 40px;
+}
+
+#description {
+    font-family: 'Source Sans Pro';
+    font-size: 19px;
+    color: rgb(107, 107, 107);
+}
+
+.option-header {
+    font-size: 24px;
+    font-family: 'Source Sans Pro';
+    color: #2f2f2f;
+    padding-top: 25px;
+}
+
+.color-button {
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.color-button:hover {
+    border: 1px solid darkgray;
+}
+
+#black-btn {
+    background-color: #23211f;
+}
+
+#blue-btn {
+    background-color: #565681;
+}
+
+#orange-btn {
+    background-color: #ca3d22;
+}
+
+#pink-btn {
+    background-color: #e9c7be;
+}
+
+#purple-btn {
+    background-color: #8a5362;
+}
+
+.feature-button {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #dcdcdc;
+    border: none;
+    border-radius: 7px;
+    height: 40px;
+    text-align: center;
+    font-family: 'Source Sans Pro';
+    cursor: pointer;
+}
+
+.feature-button:hover {
+    border: 1px solid darkgray;
+}
+
+#time-btn {
+    width: 90px;
+    margin-right: 13px;
+}
+
+#heart-rate-btn {
+    width: 140px;
+}
+
+#buy-btn {
+    margin-top: 40px;
+    background-color: #ef8f1c;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Source Sans Pro';
+    font-weight: 600;
+    cursor: pointer;
+}
+
+#buy-btn:hover {
+    font-size: 22px;
+    border: 1px solid black;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+/* AI-Generated */
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}

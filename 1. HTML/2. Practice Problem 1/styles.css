@@ -1,0 +1,28 @@
+body {
+  background-color: whitesmoke;
+}
+
+table {
+  display: flexbox;
+}
+
+table,
+td,
+tr {
+  table-layout: fixed;
+  border-collapse: collapse;
+  border: 1px solid gray;
+  font-size: 32px;
+}
+
+td {
+  padding: 5px;
+}
+
+.table-header {
+  background-color: burlywood;
+}
+
+td {
+  background-color: bisque;
+}

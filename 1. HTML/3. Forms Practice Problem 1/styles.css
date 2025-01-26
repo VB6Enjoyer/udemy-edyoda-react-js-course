@@ -1,0 +1,67 @@
+body {
+  background-color: #f2f6ff;
+  margin: 0;
+}
+
+h1 {
+  color: black;
+  font-size: 32px;
+  padding-top: 56px;
+  padding-bottom: 32px;
+  text-align: center;
+}
+
+#links {
+  background-color: #f2f6ff;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  padding-right: 32px;
+  padding-left: 32px;
+  display: inline;
+  margin-left: 33px;
+}
+
+.register-form {
+  border: 1px solid #ccc;
+  margin-left: 33%;
+  margin-right: 33%;
+  background-color: #ffffff;
+}
+
+form {
+  margin: auto;
+  text-align: center;
+}
+
+.form-container {
+  padding-top: 80px;
+  padding-bottom: 40px;
+  padding-left: 80px;
+  padding-right: 80px;
+}
+
+input {
+  font-size: 18px;
+  padding-bottom: 12px;
+  margin-bottom: 36px;
+  border: 0;
+  border-bottom: 1px solid #ccc;
+  width: 100%;
+}
+
+button {
+  background-color: #0056ff;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  padding-left: 24px;
+  padding-right: 24px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  text-align: center;
+}

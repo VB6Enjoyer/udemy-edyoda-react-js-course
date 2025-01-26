@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<link rel="stylesheet" href="styles.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet'>
+	<link href='https://fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet'>
+	<title>Smartwatch Showcase</title>
+</head>
+
+<body onload="updateTime()">
+	<header>
+		<a href="https://www.mercadolibre.com"><img
+				src="https://http2.mlstatic.com/storage/developers-site-cms-admin/partner-center/279801394156-Mercado-Libre.png"
+				alt="MercadoLibre" id="mercado-libre"></a>
+	</header>
+
+	<div id="main-container">
+		<div id="smartwatch-container">
+			<img src="./images/black.png" id="smartwatch-image">
+			<h3 id="time">00:00:00</h3>
+			<div id="heart-rate-container" class="hidden">
+				<img src="https://cdn-icons-png.flaticon.com/512/865/865969.png">
+				<h3 id="heart-rate">80</h3>
+			</div>
+		</div>
+
+		<div id="info-container">
+			<h1 id="product-name">FitBit 25 - The Smartest Watch</h1>
+			<p id="description">FitBit 25 is the latest in smartwatch technology, perfect for both casual and sports
+				use!</p>
+
+			<h3 class="option-header">Select Color</h3>
+			<div id="color-containers">
+				<button id="black-btn" class="color-button" onclick="changeColor(this.id)"></button>
+				<button id="blue-btn" class="color-button" onclick="changeColor(this.id)"></button>
+				<button id="orange-btn" class="color-button" onclick="changeColor(this.id)"></button>
+				<button id="pink-btn" class="color-button" onclick="changeColor(this.id)"></button>
+				<button id="purple-btn" class="color-button" onclick="changeColor(this.id)"></button>
+			</div>
+
+			<h3 class="option-header">Features</h3>
+			<div id="feature-containers">
+				<button id="time-btn" class="feature-button" onclick="showTime()">Time</button>
+				<button id="heart-rate-btn" class="feature-button" onclick="showHeartRate()">Heart Rate</button>
+			</div>
+
+			<button id="buy-btn">BUY NOW</button>
+		</div>
+	</div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

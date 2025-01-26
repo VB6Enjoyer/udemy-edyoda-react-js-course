@@ -1,0 +1,29 @@
+.boca {
+    border: 1px solid blue;
+    background-color: yellow;
+    color: blue;
+    display: block;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.selesion {
+    border: 1px solid cyan;
+    background-color: white;
+    color: cyan;
+    display: block;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.copas {
+    margin-right: 5px;
+}
+
+@media (max-width: 480px) {
+    .boca {
+        width: 45%;
+    }
+
+    .selesion {
+        width: 45%;
+    }
+}

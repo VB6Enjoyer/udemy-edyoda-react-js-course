@@ -1,0 +1,7 @@
+.rocanrolContainer {
+    font-size: 18px;
+    border: 1px solid red;
+    background-color: black;
+    color: red;
+    display: block;
+}

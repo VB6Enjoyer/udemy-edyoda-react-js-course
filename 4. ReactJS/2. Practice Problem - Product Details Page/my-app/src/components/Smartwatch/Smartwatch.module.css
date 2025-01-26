@@ -1,0 +1,57 @@
+.container {
+    position: relative;
+}
+
+.image {
+    width: 576px;
+    height: 576px;
+}
+
+.time {
+    font-size: 40px;
+    color: white;
+    font-family: "Montserrat", monospace;
+    position: absolute;
+    top: 215px;
+    left: 208px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+}
+
+.heartRateContainer {
+    position: absolute;
+    top: 210px;
+    left: 245px;
+    text-align: center;
+}
+
+.heartRate {
+    font-size: 35px;
+    color: white;
+    font-family: "Montserrat", "Source Sans Pro";
+    position: relative;
+    top: -25px;
+}
+
+.heartRateImage {
+    width: 75px;
+    height: 75px;
+    position: relative;
+    animation: heartbeat 0.75s infinite ease-in-out;
+}
+
+@keyframes heartbeat {
+
+    0%,
+    100% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.2);
+    }
+}

@@ -1,0 +1,33 @@
+.optionHeader {
+    font-size: 24px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2f2f2f;
+    padding-top: 25px;
+}
+
+.featureButton {
+    font-size: 18px;
+    font-weight: 600;
+    background-color: #dcdcdc;
+    color: black;
+    border: none;
+    border-radius: 7px;
+    padding: 0;
+    height: 40px;
+    text-align: center;
+    font-family: "Source Sans Pro", sans-serif;
+    cursor: pointer;
+}
+
+.featureButton:hover {
+    border: 1px solid darkgray;
+}
+
+.timeButton {
+    width: 90px;
+    margin-right: 13px;
+}
+
+.heartRateButton {
+    width: 140px;
+}

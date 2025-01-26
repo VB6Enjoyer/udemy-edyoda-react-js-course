@@ -1,0 +1,75 @@
+.productName {
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 800;
+    font-size: 40px;
+}
+
+.description {
+    font-family: "Source Sans Pro", sans-serif;
+    font-size: 19px;
+    color: rgb(107, 107, 107);
+}
+
+.optionHeader {
+    font-size: 24px;
+    font-family: "Source Sans Pro", sans-serif;
+    color: #2f2f2f;
+    padding-top: 25px;
+}
+
+.watchImage {
+    width: 100px;
+    height: 100px;
+    margin-right: 7px;
+    margin-bottom: 7px;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    cursor: pointer;
+    object-fit: cover;
+}
+
+.watchImage:hover {
+    border-color: lightblue;
+}
+
+.buyButton {
+    margin-top: 40px;
+    background-color: #007382;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+}
+
+.buyButton:hover {
+    padding: 0;
+    font-size: 22px;
+    border: 1px solid black;
+}
+
+.buttonText {
+    display: inline-block;
+    position: relative;
+    transition: transform 0.3s ease;
+    font-size: 20px;
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: 600;
+    color: white;
+}
+
+.buyButton:hover .buttonText {
+    animation: buyNow 1s infinite ease-in-out;
+}
+
+@keyframes buyNow {
+
+    0%,
+    100% {
+        font-size: 20px;
+    }
+
+    50% {
+        font-size: 24px;
+    }
+}
